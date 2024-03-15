@@ -80,7 +80,7 @@ public class SecurityConfiguration {
 ## DEMO
  The application is be available at [http://localhost:9090/welcome](http://localhost:9090/welcome)
 ### 1. The welcome page is secured, ask for user login
-<img src="images/1.png">
+<img src="images/1.png" width="80%">
 
 ### 2. After login as "admin"
 <img src="images/2.png" width="50%">
@@ -92,10 +92,10 @@ public class SecurityConfiguration {
 <img src="images/4.png" width="50%">
 
 ### 5. Log out of "admin"
-<img src="images/5.png">
+<img src="images/5.png" width="80%">
 
 ### 6. After login as "employee", we have no access to addEmployee API
 <img src="images/6.png" width="60%">
 
 ### 7. The employee data is indeed added into the MySQL database
-<img src="images/7.png" width="60%"
+<img src="images/7.png" width="60%">
