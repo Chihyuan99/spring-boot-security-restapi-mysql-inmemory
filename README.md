@@ -17,8 +17,8 @@ This project creates a **Spring Boot REST API Application** for Employees along 
 ## About the Application
 - Spring Boot REST API for Employees Create & Retrieve operations
 - It demonstrates **REST API Security** where: 
-  -- User "employee" can access only `getEmployees` API
-  -- User "admin" can access APIs to `addEmployee` as well as `getEmployees`
+  - User "employee" can access only `getEmployees` API
+  - User "admin" can access APIs to `addEmployee` as well as `getEmployees`
 - The security login page is `by default` given by `Spring Boot Security`
 - User security credentials are `In-Memory` within `SecurityConfiguration` class
 - Connect to `MySQL` database for only Employee data
@@ -83,19 +83,19 @@ public class SecurityConfiguration {
 <img src="images/1.png">
 
 ### 2. After login as "admin"
-<img src="images/2.png">
+<img src="images/2.png" width="50%">
 
 ### 3. "admin" has access to addEmployee API
-<img src="images/3.png">
+<img src="images/3.png" width="50%">
 
 ### 4. "admin" can also fetch all employees
-<img src="images/4.png">
+<img src="images/4.png" width="50%">
 
 ### 5. Log out of "admin"
 <img src="images/5.png">
 
 ### 6. After login as "employee", we have no access to addEmployee API
-<img src="images/6.png">
+<img src="images/6.png" width="60%">
 
 ### 7. The employee data is indeed added into the MySQL database
-<img src="images/7.png">
+<img src="images/7.png" width="60%"
